@@ -1,0 +1,148 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.6em;
+  font-weight: 300;
+  color: #000;
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+p {
+  margin-bottom: 2em;
+}
+
+header {
+  border-bottom: solid 1px #e0e0e0;
+  margin: 0 0 20px 0;
+}
+
+.pageTitle,
+.pageSubTitle {
+  font-family: "Titillium", sans-serif;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.pageTitle {
+  color: #ff7600;
+}
+
+.pageTitle {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 2em;
+}
+
+.pageSubTitle {
+  margin-bottom: 1em;
+  font-size: 1.4em;
+  font-weight: 300;
+}
+
+.background {
+  background: url("../images/mol.png") repeat;
+  background-size: 100% auto;
+  position: fixed;
+  width: 100%;
+  height: 300%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.wrapper {
+  width: 520px;
+  padding: 40px;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.25);
+}
+
+.slogan {
+  position: fixed;
+  display: block;
+  top: 700px;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background: #222;
+}
+
+.sloganTitle {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 80px;
+  color: #fff;
+  text-shadow: 0px 2px 1px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-brand-img {
+  width: 10rem;
+  height: auto;
+}
+
+.navbar-nav li a {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar {
+  width: 100%;
+}
+.navbar .navbar-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.navbar .navbar-nav .nav-link {
+  text-transform: uppercase;
+}
+.navbar .navbar-nav .nav-request {
+  background-color: #bb4f4d;
+  color: #fff;
+}
+
+.wrapper-background {
+  background: url("../images/script.png") repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+.wrapper-background .wrapper-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.wrapper-background .wrapper-text h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+.wrapper-background .wrapper-text h1 span {
+  color: #bb4f4d;
+}
+.wrapper-background .wrapper-text h2 {
+  font-size: 1.5rem;
+}
+.wrapper-background .wrapper-btn button {
+  width: 9rem;
+  height: 3.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  letter-spacing: 0.0825em;
+}
+.wrapper-background .wrapper-btn .btn-green {
+  background-color: #5f7b66;
+}
+.wrapper-background .wrapper-btn .btn-red {
+  background-color: #bb4f4d;
+}
+
+/*# sourceMappingURL=styles.css.map */
