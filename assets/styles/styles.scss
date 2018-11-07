@@ -1,8 +1,4 @@
-$red: #bb4f4d;
-$green: #5f7b66;
-$white: #fff;
-$black: #000;
-
+@import "variables";
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -10,6 +6,7 @@ body {
   line-height: 1.6em;
   font-weight: 300;
   color: $black;
+  // background: lightgrey;
 }
 .container-fluid {
   padding-left: 0px;
@@ -159,3 +156,5 @@ header {
     }
   }
 }
+
+@import "forfragen";
