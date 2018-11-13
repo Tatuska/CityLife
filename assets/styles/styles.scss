@@ -1,3 +1,7 @@
+@import "variables";
+@import "forfragen";
+@import "plan";
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -5,6 +9,7 @@ body {
   line-height: 1.6em;
   font-weight: 300;
   color: $black;
+  margin-bottom: 6.5rem;
 }
 
 p {
@@ -157,14 +162,42 @@ p {
   .navbar {
     right: 0;
     left: 0;
-    // width: auto;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   .navbar {
-    // right: 0;
-    // left: 0;
     width: auto;
   }
+}
+
+// modal styles
+
+.modal-content {
+  .modal-header {
+    border: none;
+  }
+  .modal__button {
+    width: 11rem;
+    height: 2.5rem;
+    color: $white;
+    font-size: 1rem;
+    letter-spacing: 0.0825em;
+    background-color: $red;
+  }
+}
+.form-control {
+  border-radius: 0;
+}
+
+#datepicker {
+  width: 10rem;
+  text-align: center;
+  padding-right: 1rem;
+}
+.list-group-item a {
+  color: #333;
+}
+.gj-datepicker {
+  border: solid 1px $grey;
 }
