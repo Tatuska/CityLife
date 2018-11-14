@@ -29,7 +29,7 @@ main {
   position: absolute;
 }
 
-img {
+.request-img {
   width: 100%;
   height: auto;
   vertical-align: middle;
@@ -115,6 +115,30 @@ img {
   border: solid 4px #bb4f4d;
 }
 
+.contact-content {
+  margin: 6rem 0rem;
+}
+
+.contact-section {
+  margin: 1rem 6rem;
+}
+
+.contact-person-img {
+  max-width: 8rem;
+  height: auto;
+}
+
+.contact-person-name {
+  padding: 0px;
+  margin: 0px 0px 0px 1rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .contact-person,
+.contact-person-right {
+    padding: 0px 0px 2rem 0rem;
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
