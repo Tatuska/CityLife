@@ -2,6 +2,7 @@
 @import "forfragen";
 @import "plan";
 @import "contact";
+@import "meet-conf";
 
 body {
   font-family: "Roboto", sans-serif;
@@ -36,8 +37,10 @@ p {
   box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.25);
 }
 
-nav {
-  // background-color: $white;
+.fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+  box-shadow: 0px 0px 5px 1px rgba(196, 188, 196, 1);
 }
 .navbar {
   width: 100%;
