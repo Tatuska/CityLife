@@ -139,15 +139,6 @@ main {
     padding: 0px 0px 2rem 0rem;
   }
 }
-.conf-button {
-  width: 11rem;
-  height: 3.5rem;
-  color: #fff;
-  font-size: 1rem;
-  letter-spacing: 0.0825em;
-  background-color: #bb4f4d;
-}
-
 .konf-menu-item {
   height: 4rem;
   display: flex;
@@ -175,9 +166,25 @@ main {
   border-bottom: none !important;
 }
 
+.conf-section {
+  margin: 4rem 4rem 6rem 4rem;
+}
+
+.conf-button {
+  margin-top: 5.5rem;
+}
+.conf-button button {
+  width: 11rem;
+  height: 3.5rem;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: 0.0825em;
+  background-color: #bb4f4d;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-family: "Arimo", sans-serif;
+  font-size: 1rem;
   letter-spacing: 1px;
   line-height: 1.6em;
   font-weight: 300;
@@ -235,6 +242,7 @@ p {
 .navbar .navbar-nav .nav-request {
   background-color: #bb4f4d;
   color: #fff;
+  font-size: 1rem;
 }
 
 .wrapper-background {

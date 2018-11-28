@@ -15,6 +15,8 @@ $("#datepicker").datepicker({
   format: "yyyy-mm-dd"
 });
 
+$("#timepicker").timepicker();
+
 function highlightCard() {
   $(".card").removeClass("highlight");
   let targetId;
@@ -28,3 +30,10 @@ function highlightCard() {
   }
   document.getElementById(targetId).classList.add("highlight");
 }
+
+$(function() {
+  $(document).scroll(function() {
+    var $nav = $(".fixed-top");
+    $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+  });
+});
